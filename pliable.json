@@ -1,0 +1,89 @@
+{
+    "plb_config_version": "1",
+    "generated_at": "2024-04-24T21:49:10.232312",
+    "nodes": [
+        {
+            "id": "66297d34d6da705d7d04659b",
+            "name": "raw_customers",
+            "description": "",
+            "type": "SEED",
+            "dbt_model_path": "raw_customers.csv",
+            "dbt_schema": "",
+            "config": {
+                "table_name": null,
+                "combine_logic_gate": "AND",
+                "combine_required_match_count": 1,
+                "combine_behavior": "MERGE",
+                "composite_key": null,
+                "last_modified_column": null,
+                "fields": [],
+                "filters": null,
+                "upstream_nodes": []
+            },
+            "seed_headers": [
+                "id",
+                "first_name",
+                "last_name"
+            ],
+            "seed_type": "UNKNOWN",
+            "generated_from_node_id": null,
+            "generated_from_node_column": null
+        },
+        {
+            "id": "66297d34d6da705d7d04659c",
+            "name": "raw_orders",
+            "description": "",
+            "type": "SEED",
+            "dbt_model_path": "raw_orders.csv",
+            "dbt_schema": "",
+            "config": {
+                "table_name": null,
+                "combine_logic_gate": "AND",
+                "combine_required_match_count": 1,
+                "combine_behavior": "MERGE",
+                "composite_key": null,
+                "last_modified_column": null,
+                "fields": [],
+                "filters": null,
+                "upstream_nodes": []
+            },
+            "seed_headers": [
+                "id",
+                "user_id",
+                "order_date",
+                "status"
+            ],
+            "seed_type": "UNKNOWN",
+            "generated_from_node_id": null,
+            "generated_from_node_column": null
+        },
+        {
+            "id": "66297d34d6da705d7d04659d",
+            "name": "raw_payments",
+            "description": "",
+            "type": "SEED",
+            "dbt_model_path": "raw_payments.csv",
+            "dbt_schema": "",
+            "config": {
+                "table_name": null,
+                "combine_logic_gate": "AND",
+                "combine_required_match_count": 1,
+                "combine_behavior": "MERGE",
+                "composite_key": null,
+                "last_modified_column": null,
+                "fields": [],
+                "filters": null,
+                "upstream_nodes": []
+            },
+            "seed_headers": [
+                "id",
+                "order_id",
+                "payment_method",
+                "amount"
+            ],
+            "seed_type": "UNKNOWN",
+            "generated_from_node_id": null,
+            "generated_from_node_column": null
+        }
+    ]
+}
