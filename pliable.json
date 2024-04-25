@@ -1,6 +1,6 @@
 {
     "plb_config_version": "1",
-    "generated_at": "2024-04-25T03:40:35.155899",
+    "generated_at": "2024-04-25T21:13:14.401068",
     "nodes": [
         {
             "id": "6629cc886d959c44c34087da",
@@ -16,7 +16,56 @@
                 "combine_behavior": "MERGE",
                 "composite_key": null,
                 "last_modified_column": null,
-                "fields": [],
+                "fields": [
+                    {
+                        "id": "b718adec73e04ce3ec720dd11a06a308",
+                        "type": "STRING",
+                        "label": "ID",
+                        "name": "ID",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    },
+                    {
+                        "id": "5c1cf6cfec2dad86c8ca5286a0294516",
+                        "type": "STRING",
+                        "label": "FIRST_NAME",
+                        "name": "FIRST_NAME",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    },
+                    {
+                        "id": "c695cfe527a6fcd680114851b86b7555",
+                        "type": "STRING",
+                        "label": "LAST_NAME",
+                        "name": "LAST_NAME",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    }
+                ],
                 "filters": null,
                 "upstream_nodes": []
             },
@@ -43,7 +92,72 @@
                 "combine_behavior": "MERGE",
                 "composite_key": null,
                 "last_modified_column": null,
-                "fields": [],
+                "fields": [
+                    {
+                        "id": "b718adec73e04ce3ec720dd11a06a308",
+                        "type": "STRING",
+                        "label": "ID",
+                        "name": "ID",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    },
+                    {
+                        "id": "1b9efbab658fbd15557cf1c43bb89ff2",
+                        "type": "STRING",
+                        "label": "USER_ID",
+                        "name": "USER_ID",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    },
+                    {
+                        "id": "c5c91c26d9a8e92b6674c18a6e9dc386",
+                        "type": "STRING",
+                        "label": "ORDER_DATE",
+                        "name": "ORDER_DATE",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    },
+                    {
+                        "id": "5f241c8c8f985b3c51e05d39cf030f4c",
+                        "type": "STRING",
+                        "label": "STATUS",
+                        "name": "STATUS",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    }
+                ],
                 "filters": null,
                 "upstream_nodes": []
             },
@@ -71,7 +185,72 @@
                 "combine_behavior": "MERGE",
                 "composite_key": null,
                 "last_modified_column": null,
-                "fields": [],
+                "fields": [
+                    {
+                        "id": "b718adec73e04ce3ec720dd11a06a308",
+                        "type": "STRING",
+                        "label": "ID",
+                        "name": "ID",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    },
+                    {
+                        "id": "72d038332bc0c79d6e8179694ce7b49b",
+                        "type": "STRING",
+                        "label": "ORDER_ID",
+                        "name": "ORDER_ID",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    },
+                    {
+                        "id": "780ef84ad911d26609ec50b42708df2a",
+                        "type": "STRING",
+                        "label": "PAYMENT_METHOD",
+                        "name": "PAYMENT_METHOD",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    },
+                    {
+                        "id": "d01105a464390b87eab3d6c69be43a08",
+                        "type": "STRING",
+                        "label": "AMOUNT",
+                        "name": "AMOUNT",
+                        "description": "",
+                        "map_options": [],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": null,
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    }
+                ],
                 "filters": null,
                 "upstream_nodes": []
             },
@@ -84,6 +263,82 @@
             "seed_type": "UNKNOWN",
             "generated_from_node_id": null,
             "generated_from_node_column": null
+        },
+        {
+            "id": "662a7c459ea0b707b786349b",
+            "name": "kait",
+            "description": "",
+            "type": "STACK",
+            "dbt_model_path": null,
+            "dbt_schema": null,
+            "config": {
+                "table_name": "",
+                "combine_logic_gate": "AND",
+                "combine_required_match_count": 1,
+                "combine_behavior": "MERGE",
+                "composite_key": null,
+                "last_modified_column": null,
+                "fields": [
+                    {
+                        "id": "XXOWS4DFAZ",
+                        "type": "STRING",
+                        "label": "FIRST_NAME",
+                        "name": "FIRST_NAME",
+                        "description": "",
+                        "map_options": [
+                            {
+                                "id": "0WEPLIHJWH",
+                                "source_node_id": "customers",
+                                "attribute_key": "FIRST_NAME",
+                                "attribute_id": "5c1cf6cfec2dad86c8ca5286a0294516",
+                                "concat_joiner": null,
+                                "combination_rule": "PICK_ONE",
+                                "sub_options": null,
+                                "join_path": null
+                            }
+                        ],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": "",
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    },
+                    {
+                        "id": "VT61796LWZ",
+                        "type": "STRING",
+                        "label": "LAST_NAME",
+                        "name": "LAST_NAME",
+                        "description": "",
+                        "map_options": [
+                            {
+                                "id": "6580EVNCMF",
+                                "source_node_id": "customers",
+                                "attribute_key": "LAST_NAME",
+                                "attribute_id": "c695cfe527a6fcd680114851b86b7555",
+                                "concat_joiner": null,
+                                "combination_rule": "PICK_ONE",
+                                "sub_options": null,
+                                "join_path": null
+                            }
+                        ],
+                        "part_of_composite_key": false,
+                        "taxonomic_id": "",
+                        "transformer": null,
+                        "transformer_arguments": null,
+                        "relationship_id": null,
+                        "merge_behavior": "PRIORITIZE",
+                        "advanced_mode": false,
+                        "custom_sql": null
+                    }
+                ],
+                "filters": null,
+                "upstream_nodes": [
+                    "customers"
+                ]
+            }
         }
     ]
 }
